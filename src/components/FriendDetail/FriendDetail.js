@@ -20,8 +20,8 @@ const FriendDetail = () => {
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
             <p>Website: {website}</p>
-            {/* <p>Address: {address.street}, {address.suite}, {address.city}, {address.zipcode}</p> */}
-            {/* <p>Company: {company.name}</p> */}
+            <p>Address: {address?.street}, {address?.suite}, {address?.city}, {address?.zipcode}</p>
+            <p>Company: {company?.name}</p>
         </div>
     );
 };
